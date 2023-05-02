@@ -1,0 +1,20 @@
+{
+  "name": "alura-cases",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/L00p4/alura-cases.git",
+  "author": "Guilherme Marucchi <guilherme.marucchi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+  
+}
