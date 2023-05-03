@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '../src/componentes/Link';
+import Footer from '../src/componentes/patterns/Footer';
 
 
 function Title({ children, as }) {
@@ -26,6 +27,7 @@ export default function HomePage() {
             <Link href="/faq">
                 Ir para a página de perguntas
             </Link>
+            <Footer />
         </div>
     )
 }
