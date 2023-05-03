@@ -1,15 +1,6 @@
 import React from 'react';
 import Link from '../src/componentes/Link';
 
-function GlobalStyle() {
-    return(
-        <style global jsx>{`
-            body{
-                font-family: sans-serif;
-            }
-        `}</style>
-    );
-}
 
 function Title({ children, as }) {
     const Tag = as;
@@ -30,8 +21,7 @@ function Title({ children, as }) {
 
 export default function HomePage() {
     return (
-        <div>
-            <GlobalStyle />
+        <div>            
             <Title as="h1">Alura Cases - Home Page</Title>
             <Link href="/faq">
                 Ir para a página de perguntas
